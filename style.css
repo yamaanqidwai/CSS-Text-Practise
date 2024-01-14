@@ -58,3 +58,28 @@ Not using it for, most users have already downloaded this type of font */
 .line-throughed {
   text-decoration: line-through;
 }
+
+.lh1 {
+  line-height: 1em;
+}
+
+.lh2 {
+  line-height: 2em;
+}
+
+.word-space {
+  word-spacing: .25em;
+}
+
+.word-space1 {
+  word-spacing: 1em;
+}
+
+.letter-space {
+  letter-spacing: .1em;
+}
+
+.letter-space1 {
+  letter-spacing: 1em;
+}
+
