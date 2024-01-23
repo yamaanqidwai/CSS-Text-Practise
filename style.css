@@ -6,10 +6,12 @@ Not using it for, most users have already downloaded this type of font */
 
 .bold {
   font-weight: 900;
+  color: red;
 }
 
 .italic {
   font-style: italic;
+  color: red;
 }
 
 .arial {
@@ -68,7 +70,7 @@ Not using it for, most users have already downloaded this type of font */
 }
 
 .word-space {
-  word-spacing: .25em;
+  word-spacing: 0.25em;
 }
 
 .word-space1 {
@@ -76,10 +78,67 @@ Not using it for, most users have already downloaded this type of font */
 }
 
 .letter-space {
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .letter-space1 {
   letter-spacing: 1em;
+}
+
+p.Justify-allignment {
+  text-align: justify;
+  /* background-color: rgb(255, 235, 205); */
+  text-shadow: 2px, 2px, 5px, #00a6ff;
+  /* rgba(8, 0, 241, 01) */
+}
+
+.Justify-allignment span::before {
+  content: "\a";
+  white-space: pre;
+}
+
+p::first-letter {
+  color: blue;
+}
+
+.Justify-allignment::first-line {
+  color: aqua;
+}
+
+.form {
+  line-height: 2;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+p a:hover {
+  /* text-decoration: underline; */
+  text-decoration: none;
+  border-bottom: 0.5px solid #000000;
+}
+
+input.text, input.submit {
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #665544;
+  color: #ffffff;
+}
+input.submit:hover {
+  background-color: #665544;
+}
+input.submit:active {
+  background-color: chocolate;
+}
+input.text {
+  color: #cccccc;
+}
+input.text:focus {
+  color: #665544;
+}
+
+input {
+  color: #863e72;
 }
 
